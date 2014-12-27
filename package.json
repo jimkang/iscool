@@ -1,0 +1,32 @@
+{
+  "name": "iscool",
+  "version": "1.0.0",
+  "description": "Lets you know if a word is cool or not. Current use: Twitter bots.",
+  "main": "iscool.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/iscool.git"
+  },
+  "keywords": [
+    "filter",
+    "blacklist",
+    "words",
+    "content"
+  ],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/iscool/issues"
+  },
+  "homepage": "https://github.com/jimkang/iscool",
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  },
+  "dependencies": {
+    "immutable": "^3.4.1",
+    "wordfilter": "^0.1.7"
+  }
+}
