@@ -8,6 +8,7 @@ suite('Extended blacklist', function extendedBlacklistSuite() {
     assert.ok(!isCool('swastika'));
     assert.ok(!isCool('nazi'));
     assert.ok(!isCool('holocaust'));
+    assert.ok(!isCool('islamist'));
   });
 
   test('Test case insensitivity', function testCaseInsensitivity() {
