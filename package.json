@@ -1,6 +1,6 @@
 {
   "name": "iscool",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lets you know if a word is cool or not. Current use: Twitter bots.",
   "main": "iscool.js",
   "scripts": {

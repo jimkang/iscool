@@ -88,7 +88,9 @@ var lists = {
     'eric',
     'garner',
     'torture',
-    'torturer'
+    'torturer',
+    'ukraine',
+    'donetsk'
   ]
 };
 
