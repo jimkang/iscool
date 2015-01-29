@@ -48,6 +48,7 @@ var lists = {
     'transgender', // OK normally, not OK as a noun.
     'swastika',
     'nazi',
+    'nazidom',
     'holocaust',
     'islamist'
   ],

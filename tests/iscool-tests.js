@@ -7,6 +7,7 @@ suite('Extended blacklist', function extendedBlacklistSuite() {
     assert.ok(!isCool('transgender')); // Not OK as a noun.
     assert.ok(!isCool('swastika'));
     assert.ok(!isCool('nazi'));
+    assert.ok(!isCool('nazidom'));
     assert.ok(!isCool('holocaust'));
     assert.ok(!isCool('islamist'));
   });
