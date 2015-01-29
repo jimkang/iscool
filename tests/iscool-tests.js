@@ -10,6 +10,7 @@ suite('Extended blacklist', function extendedBlacklistSuite() {
     assert.ok(!isCool('nazidom'));
     assert.ok(!isCool('holocaust'));
     assert.ok(!isCool('islamist'));
+    assert.ok(!isCool('jihadist'));
   });
 
   test('Test case insensitivity', function testCaseInsensitivity() {
@@ -49,6 +50,7 @@ suite('Tragedy mode', function tragedySuite() {
     assert.ok(!isCool('torturer'));
     assert.ok(!isCool('ukraine'));
     assert.ok(!isCool('donetsk'));
+    assert.ok(!isCool('jihad'));    
   });
 
   test('Tragedy mode off', function tragedyOffTest() {

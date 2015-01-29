@@ -50,7 +50,8 @@ var lists = {
     'nazi',
     'nazidom',
     'holocaust',
-    'islamist'
+    'islamist',
+    'jihadist'
   ],
   tragedyModeBlacklist: [
     'gaza',
@@ -91,7 +92,8 @@ var lists = {
     'torture',
     'torturer',
     'ukraine',
-    'donetsk'
+    'donetsk',
+    'jihad'
   ]
 };
 
