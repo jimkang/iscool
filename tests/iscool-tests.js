@@ -11,6 +11,7 @@ suite('Extended blacklist', function extendedBlacklistSuite() {
     assert.ok(!isCool('holocaust'));
     assert.ok(!isCool('islamist'));
     assert.ok(!isCool('jihadist'));
+    assert.ok(!isCool('klan'));
   });
 
   test('Test case insensitivity', function testCaseInsensitivity() {
