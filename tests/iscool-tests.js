@@ -52,6 +52,8 @@ suite('Tragedy mode', function tragedySuite() {
     assert.ok(!isCool('ukraine'));
     assert.ok(!isCool('donetsk'));
     assert.ok(!isCool('jihad'));    
+
+    assert.ok(!isCool('carr'));
   });
 
   test('Tragedy mode off', function tragedyOffTest() {

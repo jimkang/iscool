@@ -94,7 +94,8 @@ var lists = {
     'torturer',
     'ukraine',
     'donetsk',
-    'jihad'
+    'jihad',
+    'carr'
   ]
 };
 
