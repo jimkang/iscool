@@ -52,7 +52,8 @@ var lists = {
     'holocaust',
     'islamist',
     'jihadist',
-    'klan'
+    'klan',
+    'blackface'
   ],
   tragedyModeBlacklist: [
     'gaza',
