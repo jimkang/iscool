@@ -13,6 +13,7 @@ suite('Extended blacklist', function extendedBlacklistSuite() {
     assert.ok(!isCool('jihadist'));
     assert.ok(!isCool('klan'));
     assert.ok(!isCool('abuser'));
+    assert.ok(!isCool('n-word'));
   });
 
   test('Test case insensitivity', function testCaseInsensitivity() {
