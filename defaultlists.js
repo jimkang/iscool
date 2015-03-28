@@ -98,8 +98,7 @@ var lists = {
     'ukraine',
     'donetsk',
     'jihad',
-    'terry',
-    'pratchett'
+    'grieving'
   ]
 };
 
