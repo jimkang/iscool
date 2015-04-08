@@ -98,7 +98,12 @@ var lists = {
     'ukraine',
     'donetsk',
     'jihad',
-    'grieving'
+    'grieving',
+    'walter',
+    'scott',
+    'cop',
+    'police',
+    'officer'
   ]
 };
 
