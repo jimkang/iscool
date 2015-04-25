@@ -107,8 +107,13 @@ var lists = {
     'nepal',
     'earthquake',
     'katmandu',
-    'Durbar'
+    'Durbar',
+    'wreckage',
+    'carnage'
   ]
 };
+
+// TODO: Differentiate between words not cool to say vs. words not cool to
+// respond to.
 
 module.exports = Immutable.Map(lists);
