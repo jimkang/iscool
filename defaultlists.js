@@ -103,7 +103,11 @@ var lists = {
     'scott',
     'cop',
     'police',
-    'officer'
+    'officer',
+    'nepal',
+    'earthquake',
+    'katmandu',
+    'Durbar'
   ]
 };
 
