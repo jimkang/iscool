@@ -109,7 +109,12 @@ var lists = {
     'katmandu',
     'Durbar',
     'wreckage',
-    'carnage'
+    'carnage',
+    'riot',
+    'rioting',
+    'baltimore',
+    'freddie',
+    'gray'
   ]
 };
 
