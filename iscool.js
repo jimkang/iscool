@@ -5,7 +5,9 @@ function createIsCool(opts) {
   var falsePositives = defaultLists.get('falsePositives');
   var extendedBlacklist = defaultLists.get('extendedBlacklist');
   var tragedyModeBlacklist = defaultLists.get('tragedyModeBlacklist');
+  var whitelist = defaultLists.get('whitelist');
   var customBlacklist;
+  var customWhitelist;
   var tragedyHappenedRecently = true;
   var logger;
 
@@ -28,11 +30,19 @@ function createIsCool(opts) {
     if ('tragedyHappenedRecently' in opts) {
       tragedyHappenedRecently = opts.tragedyHappenedRecently;
     }
+    customWhitelist = opts.customWhitelist;
   }
 
   function isCool(word) {
     var normalizedWord = word.toLowerCase();
     
+    if (whitelist.indexOf(normalizedWord) !== -1) {
+      return true;
+    }
+    else if (customWhitelist && customWhitelist.indexOf(normalizedWord) !== -1) {
+      return true;
+    }
+
     var cool = (falsePositives.indexOf(normalizedWord) === -1);
 
     if (cool) {

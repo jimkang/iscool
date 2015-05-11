@@ -102,3 +102,20 @@ suite('Custom logger', function loggerSuite() {
     assert.equal(textLogged, 'Uncool word: angularjs');
   });
 });
+
+suite('Whitelist', function whitelistSuite() {
+  test('Test whitelist', function testWhitelist() {
+    var isCool = createIsCool({
+      customWhitelist: [
+        'gnarly',
+        'bitchin\''
+      ]
+    });
+
+    assert.ok(!isCool('crip'));
+    assert.ok(isCool('JavaScript'));
+
+    assert.ok(!isCool('bitch'));
+    assert.ok(isCool('bitchin\''));
+  });
+});
