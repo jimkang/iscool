@@ -117,7 +117,11 @@ var lists = {
     'rioting',
     'baltimore',
     'freddie',
-    'gray'
+    'gray',
+    'derailment',
+    'amtrak',
+    'train',
+    'philadelphia'
   ],
   whitelist: [
     'javascript'
