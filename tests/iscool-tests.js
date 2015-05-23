@@ -103,6 +103,15 @@ suite('Custom logger', function loggerSuite() {
   });
 });
 
+suite('Wordfilter mods', function wordfilterModSuite() {
+  test('Test whitelist', function testWhitelist() {
+    var isCool = createIsCool();
+
+    assert.ok(!isCool('crip'));
+    assert.ok(isCool('JavaScript'));
+  });
+});
+
 suite('Whitelist', function whitelistSuite() {
   test('Test whitelist', function testWhitelist() {
     var isCool = createIsCool({
@@ -111,9 +120,6 @@ suite('Whitelist', function whitelistSuite() {
         'bitchin\''
       ]
     });
-
-    assert.ok(!isCool('crip'));
-    assert.ok(isCool('JavaScript'));
 
     assert.ok(!isCool('bitch'));
     assert.ok(isCool('bitchin\''));

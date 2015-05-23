@@ -1,6 +1,8 @@
 var defaultLists = require('./defaultlists');
 var wordfilter = require('wordfilter');
 
+wordfilter.removeWord('crip');
+
 function createIsCool(opts) {
   var falsePositives = defaultLists.get('falsePositives');
   var extendedBlacklist = defaultLists.get('extendedBlacklist');

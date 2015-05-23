@@ -58,7 +58,11 @@ var lists = {
     'abuser',
     'n-word',
     'darky',
-    'darkies'
+    'darkies',
+    'crip',
+    'crips',
+    'cripple',
+    'cripples'
   ],
   tragedyModeBlacklist: [
     'gaza',
@@ -124,7 +128,6 @@ var lists = {
     'philadelphia'
   ],
   whitelist: [
-    'javascript'
   ]
 };
 
