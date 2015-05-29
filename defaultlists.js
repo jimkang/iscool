@@ -62,7 +62,12 @@ var lists = {
     'crip',
     'crips',
     'cripple',
-    'cripples'
+    'cripples',
+    'pedophile',
+    'pedophilia',
+    'cancer',
+    'seizure',
+    'eulogy'
   ],
   tragedyModeBlacklist: [
     'gaza',
