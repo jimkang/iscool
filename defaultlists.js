@@ -130,7 +130,57 @@ var lists = {
     'derailment',
     'amtrak',
     'train',
-    'philadelphia'
+    'philadelphia',
+
+    'rev',
+    // 'sharonda',
+    // 'coleman',
+    'singleton',
+
+    // 'cynthia',
+    'hurd',
+
+    // 'susie',
+    // 'jackson',
+
+    'ethel',
+    'lance',
+
+    // 'depayne',
+    // 'middleton',
+    // 'doctor',
+
+    // 'clementa',
+    // 'pinckney',
+
+    // 'tywanza',
+    // 'sanders',
+    'sander',
+
+    'daniel',
+    // 'simmons',
+    'simmon',
+
+    // 'myra',
+    // 'thompson',
+
+    'ame',
+    'emanuel',
+    'victim',
+    'charleston',
+    'columbia',
+    'racist',
+    'supremacist',
+    'racism',
+    'supremacy',
+    'dylann',
+    'roof',
+    'murder',
+    'murderer',
+    'whiteness',
+    'rhodesian',
+    'rhodesia',
+    'funeral'
   ],
   whitelist: [
   ]
