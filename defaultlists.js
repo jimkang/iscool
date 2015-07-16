@@ -67,7 +67,8 @@ var lists = {
     'pedophilia',
     'cancer',
     'seizure',
-    'eulogy'
+    'eulogy',
+    'lynching'
   ],
   tragedyModeBlacklist: [
     'gaza',
@@ -180,7 +181,9 @@ var lists = {
     'whiteness',
     'rhodesian',
     'rhodesia',
-    'funeral'
+    'funeral',
+    'arson',
+    'firebombing'
   ],
   whitelist: [
   ]
