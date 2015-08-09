@@ -68,7 +68,9 @@ var lists = {
     'cancer',
     'seizure',
     'eulogy',
-    'lynching'
+    'lynching',
+    'slaveowner',
+    'slaveowners'
   ],
   tragedyModeBlacklist: [
     'gaza',
