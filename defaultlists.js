@@ -185,7 +185,11 @@ var lists = {
     'rhodesia',
     'funeral',
     'arson',
-    'firebombing'
+    'firebombing',
+    'killed',
+
+    'cameraman',
+    'virginia'
   ],
   whitelist: [
   ]
