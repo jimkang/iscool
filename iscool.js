@@ -34,7 +34,7 @@ function createIsCool(opts) {
     }
     customWhitelist = opts.customWhitelist;
   } else if (typeof opts === 'string') {
-    throw new TypeError("iscool constructor function expected an options object but received " + opts)
+    throw new TypeError('iscool constructor function expected an options object but received ' + opts)
   }
 
   function isCool(word) {
