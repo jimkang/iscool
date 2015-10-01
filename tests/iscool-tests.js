@@ -14,6 +14,7 @@ suite('Extended blacklist', function extendedBlacklistSuite() {
     assert.ok(!isCool('klan'));
     assert.ok(!isCool('abuser'));
     assert.ok(!isCool('n-word'));
+    assert.ok(!isCool('RIP'));
   });
 
   test('Test case insensitivity', function testCaseInsensitivity() {

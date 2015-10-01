@@ -70,7 +70,10 @@ var lists = {
     'eulogy',
     'lynching',
     'slaveowner',
-    'slaveowners'
+    'slaveowners',
+    'condolence',
+    'condolences',
+    'RIP'
   ],
   tragedyModeBlacklist: [
     'gaza',
