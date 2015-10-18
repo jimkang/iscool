@@ -77,7 +77,9 @@ var lists = {
     'molestation',
     'molestations',
     'molester',
-    'molesters'
+    'molesters',
+    'triggering',
+    'trigger'
   ],
   tragedyModeBlacklist: [
     'gaza',
