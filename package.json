@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "immutable": "^3.4.1",
-    "wordfilter": "git://github.com/jimkang/wordfilter.git#master"
+    "wordfilter": "^0.2.4"
   }
 }
