@@ -81,7 +81,15 @@ var lists = {
     'triggering',
     'trigger',
     'brownface',
-    'niggaz'
+    'niggaz',
+    'harelip',
+    'harelips',
+    'invalid',
+    'invalids',
+    'moron',
+    'morons',
+    'spaz',
+    'spazzes'
   ],
   tragedyModeBlacklist: [
     'gaza',
