@@ -79,7 +79,9 @@ var lists = {
     'molester',
     'molesters',
     'triggering',
-    'trigger'
+    'trigger',
+    'brownface',
+    'niggaz'
   ],
   tragedyModeBlacklist: [
     'gaza',

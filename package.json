@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/jimkang/iscool",
   "devDependencies": {
-    "mocha": "~1.18.2"
+    "mocha": "^2.3.3"
   },
   "dependencies": {
     "immutable": "^3.4.1",
