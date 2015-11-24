@@ -208,7 +208,9 @@ var lists = {
     'killed',
 
     'cameraman',
-    'virginia'
+    'virginia',
+    'gunmen',
+    'gunman'
   ],
   whitelist: [
   ]
