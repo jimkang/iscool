@@ -39,6 +39,7 @@ var lists = {
     'rapes',
     'rapist',
     'rapists',
+    'raping',
     'bombing',
     'bombings',
     'shootings',
