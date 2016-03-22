@@ -214,7 +214,10 @@ var lists = {
     'virginia',
     'gunmen',
     'gunman',
-    'inland'
+    'inland',
+
+    'brussel',
+    'brussels'
   ],
   whitelist: [
   ]
