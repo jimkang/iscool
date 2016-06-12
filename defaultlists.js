@@ -217,7 +217,10 @@ var lists = {
     'inland',
 
     'brussel',
-    'brussels'
+    'brussels',
+
+    'casualties',
+    'casualty'
   ],
   whitelist: [
   ]
