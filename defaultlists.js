@@ -44,6 +44,7 @@ var lists = {
     'bombings',
     'shootings',
     'shooting',
+    'shooter',
     'miscarriage',
     'coon',
     'transgender', // OK normally, not OK as a noun.
@@ -220,7 +221,13 @@ var lists = {
     'brussels',
 
     'casualties',
-    'casualty'
+    'casualty',
+
+    'orlando',
+    'pulse',
+    'nightclub'.
+    'mateen',
+    'omar'
   ],
   whitelist: [
   ]
