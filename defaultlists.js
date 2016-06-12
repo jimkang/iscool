@@ -225,7 +225,7 @@ var lists = {
 
     'orlando',
     'pulse',
-    'nightclub'.
+    'nightclub',
     'mateen',
     'omar'
   ],
