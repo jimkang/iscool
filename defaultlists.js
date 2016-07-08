@@ -227,7 +227,10 @@ var lists = {
     'pulse',
     'nightclub',
     'mateen',
-    'omar'
+    'omar',
+
+    'sniper',
+    'dallas'
   ],
   whitelist: [
   ]
