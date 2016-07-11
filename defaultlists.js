@@ -230,7 +230,10 @@ var lists = {
     'omar',
 
     'sniper',
-    'dallas'
+    'dallas',
+
+    'baton',
+    'rouge'
   ],
   whitelist: [
   ]
