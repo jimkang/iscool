@@ -93,7 +93,9 @@ var lists = {
     'spaz',
     'spazzes',
     'pedo',
-    'pedos'
+    'pedos',
+    'negress',
+    'blackamoor'
   ],
   tragedyModeBlacklist: [
     'gaza',
