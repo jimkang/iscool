@@ -37,7 +37,7 @@ Example:
       logger: console
     });
 
-    isCool('hastur')); 
+    isCool('hastur');
     // false
     // Uncool word: hastur
 
