@@ -215,29 +215,32 @@ var lists = {
     'firebombing',
     'killed',
 
-    'cameraman',
-    'virginia',
+    // 'cameraman',
+    // 'virginia',
     'gunmen',
     'gunman',
-    'inland',
+    // 'inland',
 
-    'brussel',
-    'brussels',
+    // 'brussel',
+    // 'brussels',
 
     'casualties',
     'casualty',
 
-    'orlando',
+    // 'orlando',
     'pulse',
     'nightclub',
     'mateen',
     'omar',
 
     'sniper',
-    'dallas',
+    // 'dallas',
 
-    'baton',
-    'rouge'
+    // 'baton',
+    // 'rouge'
+    'chelsea',
+    'manhattan',
+    'blast'
   ],
   whitelist: [
   ]
