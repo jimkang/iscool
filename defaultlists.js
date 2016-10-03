@@ -9,6 +9,7 @@ var lists = {
   falsePositives: [
     'rt',
     'http',
+    'https',
     'haha',
     'adv',
     'san',
