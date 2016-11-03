@@ -21,7 +21,8 @@ var lists = {
     'pl',
     'dr',
     'ala',
-    'ama'
+    'ama',
+    'ive'
   ],
   extendedBlacklist: [
     'negro',
