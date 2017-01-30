@@ -99,7 +99,10 @@ var lists = {
     'negress',
     'blackamoor',
     'towelhead',
-    'towelheads'
+    'towelheads',
+    'muzzy',
+    'muzzie',
+    'muzzies'
   ],
   tragedyModeBlacklist: [
     'gaza',
