@@ -1,3 +1,5 @@
+/* global suite, test */
+
 var assert = require('assert');
 var createIsCool = require('../iscool');
 

@@ -233,19 +233,26 @@ var lists = {
     'casualty',
 
     // 'orlando',
-    'pulse',
-    'nightclub',
-    'mateen',
-    'omar',
+    // 'pulse',
+    // 'nightclub',
+    // 'mateen',
+    // 'omar',
 
     'sniper',
     // 'dallas',
 
     // 'baton',
     // 'rouge'
-    'chelsea',
-    'manhattan',
-    'blast'
+    // 'chelsea',
+    // 'manhattan',
+    'blast',
+
+    'antisemitism',
+    'anti-semitism',
+    'antisemite',
+    'antisemites',
+    'anti-semite',
+    'anti-semites'
   ],
   whitelist: [
   ]
