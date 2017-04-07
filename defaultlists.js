@@ -256,7 +256,9 @@ var lists = {
     'anti-semites',
 
     'tomahawk',
+    'tomahawks',
     'missile',
+    'missiles',
     'syria',
     'syrian',
     'syrians'
