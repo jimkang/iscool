@@ -253,7 +253,13 @@ var lists = {
     'antisemite',
     'antisemites',
     'anti-semite',
-    'anti-semites'
+    'anti-semites',
+
+    'tomahawk',
+    'missile',
+    'syria',
+    'syrian',
+    'syrians'
   ],
   whitelist: [
   ]
