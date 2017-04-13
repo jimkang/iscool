@@ -143,6 +143,7 @@ var lists = {
     'garner',
     'torture',
     'torturer',
+    'torturing',
     'ukraine',
     'donetsk',
     'jihad',
