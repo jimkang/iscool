@@ -48,8 +48,11 @@ var lists = {
     'shooting',
     'shooter',
     'miscarriage',
+    'miscarriages',
     'coon',
+    'coons',
     'transgender', // OK normally, not OK as a noun.
+    'transgenders', // OK normally, not OK as a noun.
     'swastika',
     'swastikas',
     'nazi',
