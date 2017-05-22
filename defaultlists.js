@@ -265,7 +265,11 @@ var lists = {
     'missiles',
     'syria',
     'syrian',
-    'syrians'
+    'syrians',
+
+    'manchester',
+    'ariana',
+    'grande'
   ],
   whitelist: [
   ]
