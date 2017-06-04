@@ -269,7 +269,10 @@ var lists = {
 
     'manchester',
     'ariana',
-    'grande'
+    'grande',
+
+    'borough',
+    'vauxhall'
   ],
   whitelist: [
   ]
