@@ -272,7 +272,10 @@ var lists = {
     'grande',
 
     'borough',
-    'vauxhall'
+    'vauxhall',
+
+    'acid',
+    'khan'
   ],
   whitelist: [
   ]
