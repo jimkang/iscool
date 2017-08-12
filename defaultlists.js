@@ -267,15 +267,19 @@ var lists = {
     'syrian',
     'syrians',
 
-    'manchester',
-    'ariana',
-    'grande',
+    // 'manchester',
+    // 'ariana',
+    // 'grande',
 
-    'borough',
-    'vauxhall',
+    // 'borough',
+    // 'vauxhall',
 
-    'acid',
-    'khan'
+    // 'acid',
+    // 'khan'
+    'uva',
+    'virginia',
+    'cville',
+    'charlottesville'
   ],
   whitelist: [
   ]
