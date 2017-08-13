@@ -279,7 +279,15 @@ var lists = {
     'uva',
     'virginia',
     'cville',
-    'charlottesville'
+    'charlottesville',
+    'torch',
+    'torches',
+    'percenter',
+    'tiki',
+    'driver',
+    'heyer',
+    'heather',
+    'field'
   ],
   whitelist: [
   ]
