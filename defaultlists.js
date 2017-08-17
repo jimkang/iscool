@@ -296,7 +296,14 @@ var lists = {
     'driver',
     'heyer',
     'heather',
-    'field'
+    'field',
+    'barcelona',
+    'spain',
+    'ramblas',
+    'van',
+    'catalonia',
+    'catalonian',
+    'catalonians'
   ],
   whitelist: [
   ]
