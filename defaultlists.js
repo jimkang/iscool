@@ -60,6 +60,8 @@ var lists = {
     'supremacy',
     'supremacist',
     'supremacists',
+    'white-supremacist',
+    'white-supremacists',
     'nazidom',
     'nazism',
     'naziism',
