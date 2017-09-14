@@ -115,7 +115,11 @@ var lists = {
     'towelheads',
     'muzzy',
     'muzzie',
-    'muzzies'
+    'muzzies',
+    'boylove',
+    'childlove',
+    'boylovers',
+    'childlovers'
   ],
   tragedyModeBlacklist: [
     'gaza',
