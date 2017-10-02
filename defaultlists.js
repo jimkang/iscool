@@ -162,6 +162,8 @@ var lists = {
     'gunshots',
     'silencer',
     'silencers',
+    'firearm',
+    'firearms',
     'bloodshed',
     'rip',
     'chokehold',
