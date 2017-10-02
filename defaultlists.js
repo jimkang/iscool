@@ -326,7 +326,9 @@ var lists = {
     'hospital',
     'aldean',
     'paddock',
-    'mandalay'
+    'mandalay',
+
+    'spain'
   ],
   whitelist: [
   ]
