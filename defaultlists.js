@@ -152,6 +152,7 @@ var lists = {
     'beheading',
     'foley',
     'gun',
+    'rifle',
     'rip',
     'chokehold',
     'coroner',
@@ -308,7 +309,7 @@ var lists = {
     // 'catalonia',
     // 'catalonian',
     // 'catalonians',
-    'houston',
+    // 'houston',
     'flood',
     'floods',
     'storm',
@@ -317,7 +318,15 @@ var lists = {
     'hurricanes',
     'tornado',
     'tornadoes',
-    'tornados'
+    'tornados',
+
+    'vegas',
+    'country',
+    'stampede',
+    'hospital',
+    'aldean',
+    'paddock',
+    'mandalay'
   ],
   whitelist: [
   ]
