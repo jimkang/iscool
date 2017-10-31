@@ -347,7 +347,12 @@ var lists = {
     'paddocks',
     'mandalay',
 
-    'spain'
+    'manhattan',
+    'depot',
+    'cyclist',
+    'cyclists',
+    'bicyclist',
+    'bicyclists'
   ],
   whitelist: [
   ]
