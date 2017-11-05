@@ -164,6 +164,11 @@ var lists = {
     'rifles',
     'gunshot',
     'gunshots',
+    'gunfire',
+    'semiautomatic',
+    'semiautomatics',
+    'automatic',
+    'automatics',
     'silencer',
     'silencers',
     'firearm',
@@ -352,7 +357,15 @@ var lists = {
     'cyclist',
     'cyclists',
     'bicyclist',
-    'bicyclists'
+    'bicyclists',
+
+    'sutherland',
+    'springs',
+    'spring',
+    'church',
+    'churches',
+    'texas',
+    ''
   ],
   whitelist: [
   ]
