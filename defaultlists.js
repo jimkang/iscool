@@ -364,8 +364,7 @@ var lists = {
     'spring',
     'church',
     'churches',
-    'texas',
-    ''
+    'texas'
   ],
   whitelist: [
   ]
