@@ -71,6 +71,8 @@ var lists = {
     'naziism',
     'nazisms',
     'naziisms',
+    'stormer',
+    'stormers',
     'terrorist',
     'terrorists',
     'holocaust',
