@@ -384,7 +384,8 @@ var lists = {
     'parkland',
     'cruz',
     'stoneman',
-    'broward'
+    'broward',
+    'lockdown'
   ],
   whitelist: [
   ]
