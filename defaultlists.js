@@ -385,7 +385,11 @@ var lists = {
     'cruz',
     'stoneman',
     'broward',
-    'lockdown'
+    'lockdown',
+    'classmate',
+    'classmates',
+    'school',
+    'schools'
   ],
   whitelist: [
   ]
