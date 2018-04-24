@@ -389,7 +389,9 @@ var lists = {
     'classmate',
     'classmates',
     'school',
-    'schools'
+    'schools',
+
+    'toronto'
   ],
   whitelist: [
   ]
