@@ -391,7 +391,11 @@ var lists = {
     'school',
     'schools',
 
-    'toronto'
+    'toronto',
+
+    'aids',
+    'hiv',
+    'hiv/aids'
   ],
   whitelist: [
   ]
