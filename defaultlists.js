@@ -140,7 +140,9 @@ var lists = {
     'boylove',
     'childlove',
     'boylovers',
-    'childlovers'
+    'childlovers',
+    'qanon',
+    'qanons'
   ],
   tragedyModeBlacklist: [
     'gaza',
@@ -232,8 +234,8 @@ var lists = {
     // 'susie',
     // 'jackson',
 
-    'ethel',
-    'lance',
+    // 'ethel',
+    // 'lance',
 
     // 'depayne',
     // 'middleton',
@@ -246,9 +248,9 @@ var lists = {
     // 'sanders',
     'sander',
 
-    'daniel',
+    // 'daniel',
     // 'simmons',
-    'simmon',
+    // 'simmon',
 
     // 'myra',
     // 'thompson',
@@ -355,32 +357,9 @@ var lists = {
     'tornadoes',
     'tornados',
 
-    // 'vegas',
-    // 'country',
-    // 'stampede',
-    // 'stampedes',
-    // 'hospital',
-    // 'hospitals',
-    // 'aldean',
-    // 'paddock',
-    // 'paddocks',
-    // 'mandalay',
-
-    // 'manhattan',
-    // 'depot',
-    // 'cyclist',
-    // 'cyclists',
-    // 'bicyclist',
-    // 'bicyclists',
-
-    'sutherland',
-    'springs',
-    'spring',
     'church',
     'churches',
-    'texas',
 
-    'florida',
     'parkland',
     'cruz',
     'stoneman',
@@ -390,8 +369,6 @@ var lists = {
     'classmates',
     'school',
     'schools',
-
-    'toronto',
 
     'aids',
     'hiv',
