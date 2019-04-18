@@ -3,7 +3,6 @@ var test = require('tape');
 
 test('Basic test', function basicTest(t) {
   var isCool = createIsCool();
-  t.ok(!isCool('transgender')); // Not OK as a noun.
   t.ok(!isCool('swastika'));
   t.ok(!isCool('nazi'));
   t.ok(!isCool('nazidom'));
@@ -63,9 +62,6 @@ test('Tragedy mode off', function tragedyOffTest(t) {
   t.ok(isCool('chokehold'));
   t.ok(isCool('coroner'));
   t.ok(isCool('eric'));
-  t.ok(isCool('garner'));
-  t.ok(isCool('torture'));
-  t.ok(isCool('torturer'));
   t.end();
 });
 
