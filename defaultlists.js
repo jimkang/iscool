@@ -1,10 +1,10 @@
 var Immutable = require('immutable');
 
-// Everything in the lists should be lowercase. Potential matches will also 
+// Everything in the lists should be lowercase. Potential matches will also
 // be converted to lowercase.
 
 var lists = {
-  // falsePositivesList should contain only the singular forms of the words, 
+  // falsePositivesList should contain only the singular forms of the words,
   // words will be singularized before being checked against this list.
   falsePositives: [
     'rt',
@@ -374,8 +374,7 @@ var lists = {
     'hiv',
     'hiv/aids'
   ],
-  whitelist: [
-  ]
+  whitelist: []
 };
 
 // TODO: Differentiate between words not cool to say vs. words not cool to

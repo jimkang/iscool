@@ -33,25 +33,29 @@ function createIsCool(opts) {
       tragedyHappenedRecently = opts.tragedyHappenedRecently;
     }
     customWhitelist = opts.customWhitelist;
-  }
-  else if (typeof opts === 'string') {
-    throw new TypeError('iscool constructor function expected an options object but received ' + opts);
+  } else if (typeof opts === 'string') {
+    throw new TypeError(
+      'iscool constructor function expected an options object but received ' +
+        opts
+    );
   }
 
   function isCool(word) {
     var normalizedWord = word.toLowerCase();
-    
+
     if (whitelist.indexOf(normalizedWord) !== -1) {
       return true;
-    }
-    else if (customWhitelist && customWhitelist.indexOf(normalizedWord) !== -1) {
+    } else if (
+      customWhitelist &&
+      customWhitelist.indexOf(normalizedWord) !== -1
+    ) {
       return true;
     }
 
-    var cool = (falsePositives.indexOf(normalizedWord) === -1);
+    var cool = falsePositives.indexOf(normalizedWord) === -1;
 
     if (cool) {
-      cool = (extendedBlacklist.indexOf(normalizedWord) === -1);
+      cool = extendedBlacklist.indexOf(normalizedWord) === -1;
     }
 
     if (cool) {
@@ -59,11 +63,11 @@ function createIsCool(opts) {
     }
 
     if (cool && customBlacklist) {
-      cool = (customBlacklist.indexOf(normalizedWord) === -1);
+      cool = customBlacklist.indexOf(normalizedWord) === -1;
     }
 
     if (cool && tragedyHappenedRecently) {
-      cool = (tragedyModeBlacklist.indexOf(normalizedWord) === -1);
+      cool = tragedyModeBlacklist.indexOf(normalizedWord) === -1;
     }
 
     if (!cool && logger) {

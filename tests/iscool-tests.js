@@ -1,130 +1,117 @@
-/* global suite, test */
-
-var assert = require('assert');
 var createIsCool = require('../iscool');
+var test = require('tape');
 
-suite('Extended blacklist', function extendedBlacklistSuite() {
-  test('Basic test', function basicTest() {
-    var isCool = createIsCool();
-    assert.ok(!isCool('transgender')); // Not OK as a noun.
-    assert.ok(!isCool('swastika'));
-    assert.ok(!isCool('nazi'));
-    assert.ok(!isCool('nazidom'));
-    assert.ok(!isCool('holocaust'));
-    assert.ok(!isCool('islamist'));
-    assert.ok(!isCool('jihadist'));
-    assert.ok(!isCool('klan'));
-    assert.ok(!isCool('abuser'));
-    assert.ok(!isCool('n-word'));
-    assert.ok(!isCool('RIP'));
-  });
-
-  test('Test case insensitivity', function testCaseInsensitivity() {
-    var isCool = createIsCool();
-    assert.ok(isCool('jello'));
-    assert.ok(isCool('Jello'));
-    assert.ok(!isCool('Negro'));
-    assert.ok(!isCool('negro'));
-    assert.ok(!isCool('Coon'));
-    assert.ok(!isCool('coon'));
-  });
-
-  test('Custom blacklist', function testCustomBlacklist() {
-    var isCool = createIsCool({
-      customBlacklist: [
-        'hastur',
-        'voldemort'
-      ]
-    });
-    assert.ok(!isCool('hastur'));
-    assert.ok(!isCool('Voldemort'));
-    assert.ok(isCool('Old Scratch'));
-    assert.ok(!isCool('nazi'));
-  });
+test('Basic test', function basicTest(t) {
+  var isCool = createIsCool();
+  t.ok(!isCool('transgender')); // Not OK as a noun.
+  t.ok(!isCool('swastika'));
+  t.ok(!isCool('nazi'));
+  t.ok(!isCool('nazidom'));
+  t.ok(!isCool('holocaust'));
+  t.ok(!isCool('islamist'));
+  t.ok(!isCool('jihadist'));
+  t.ok(!isCool('klan'));
+  t.ok(!isCool('abuser'));
+  t.ok(!isCool('n-word'));
+  t.ok(!isCool('RIP'));
+  t.end();
 });
 
-suite('Tragedy mode', function tragedySuite() {  
-  test('Tragedy mode on', function tragedyTest() {
-    var isCool = createIsCool({
-      tragedyHappenedRecently: true
-    });
-    assert.ok(!isCool('chokehold'));
-    assert.ok(!isCool('coroner'));
-    assert.ok(!isCool('eric'));
-    assert.ok(!isCool('garner'));
-    assert.ok(!isCool('torture'));
-    assert.ok(!isCool('torturer'));
-    assert.ok(!isCool('ukraine'));
-    assert.ok(!isCool('donetsk'));
-    assert.ok(!isCool('jihad'));
-    assert.ok(!isCool('grieving'));
-  });
-
-  test('Tragedy mode off', function tragedyOffTest() {
-    var isCool = createIsCool({
-      tragedyHappenedRecently: false
-    });
-    assert.ok(isCool('chokehold'));
-    assert.ok(isCool('coroner'));
-    assert.ok(isCool('eric'));
-    assert.ok(isCool('garner'));
-    assert.ok(isCool('torture'));
-    assert.ok(isCool('torturer'));
-  });
+test('Test case insensitivity', function testCaseInsensitivity(t) {
+  var isCool = createIsCool();
+  t.ok(isCool('jello'));
+  t.ok(isCool('Jello'));
+  t.ok(!isCool('Negro'));
+  t.ok(!isCool('negro'));
+  t.ok(!isCool('Coon'));
+  t.ok(!isCool('coon'));
+  t.end();
 });
 
-suite('False positives', function falsePositivesSuite() {
-  test('Test false positives', function testFalsePositives() {
-    var isCool = createIsCool({
-      tragedyHappenedRecently: false
-    });
-
-    assert.ok(!isCool('IO'));
-    assert.ok(isCool('iOS'));
-    assert.ok(!isCool('imo'));
-    assert.ok(!isCool('IMO'));
+test('Custom blacklist', function testCustomBlacklist(t) {
+  var isCool = createIsCool({
+    customBlacklist: ['hastur', 'voldemort']
   });
+  t.ok(!isCool('hastur'));
+  t.ok(!isCool('Voldemort'));
+  t.ok(isCool('Old Scratch'));
+  t.ok(!isCool('nazi'));
+  t.end();
 });
 
-suite('Custom logger', function loggerSuite() {
-  test('Test using a custom logger', function testCustomLogger() {
-    var textLogged;
-    var isCool = createIsCool({
-      logger: {
-        log: function customLog(text) {
-          textLogged = text;
-        }
-      },
-      customBlacklist: [
-        'angularjs'
-      ]
-    });
-
-    isCool('angularjs');
-
-    assert.equal(textLogged, 'Uncool word: angularjs');
+test('Tragedy mode on', function tragedyTest(t) {
+  var isCool = createIsCool({
+    tragedyHappenedRecently: true
   });
+  t.ok(!isCool('chokehold'));
+  t.ok(!isCool('coroner'));
+  t.ok(!isCool('eric'));
+  t.ok(!isCool('garner'));
+  t.ok(!isCool('torture'));
+  t.ok(!isCool('torturer'));
+  t.ok(!isCool('ukraine'));
+  t.ok(!isCool('donetsk'));
+  t.ok(!isCool('jihad'));
+  t.ok(!isCool('grieving'));
+  t.end();
 });
 
-suite('Wordfilter mods', function wordfilterModSuite() {
-  test('Test whitelist', function testWhitelist() {
-    var isCool = createIsCool();
-
-    assert.ok(!isCool('crip'));
-    assert.ok(isCool('JavaScript'));
+test('Tragedy mode off', function tragedyOffTest(t) {
+  var isCool = createIsCool({
+    tragedyHappenedRecently: false
   });
+  t.ok(isCool('chokehold'));
+  t.ok(isCool('coroner'));
+  t.ok(isCool('eric'));
+  t.ok(isCool('garner'));
+  t.ok(isCool('torture'));
+  t.ok(isCool('torturer'));
+  t.end();
 });
 
-suite('Whitelist', function whitelistSuite() {
-  test('Test whitelist', function testWhitelist() {
-    var isCool = createIsCool({
-      customWhitelist: [
-        'gnarly',
-        'bitchin\''
-      ]
-    });
-
-    assert.ok(!isCool('bitch'));
-    assert.ok(isCool('bitchin\''));
+test('Test false positives', function testFalsePositives(t) {
+  var isCool = createIsCool({
+    tragedyHappenedRecently: false
   });
+
+  t.ok(!isCool('IO'));
+  t.ok(isCool('iOS'));
+  t.ok(!isCool('imo'));
+  t.ok(!isCool('IMO'));
+  t.end();
+});
+
+test('Test using a custom logger', function testCustomLogger(t) {
+  var textLogged;
+  var isCool = createIsCool({
+    logger: {
+      log: function customLog(text) {
+        textLogged = text;
+      }
+    },
+    customBlacklist: ['angularjs']
+  });
+
+  isCool('angularjs');
+
+  t.equal(textLogged, 'Uncool word: angularjs');
+  t.end();
+});
+
+test('Test whitelist', function testWhitelist(t) {
+  var isCool = createIsCool();
+
+  t.ok(!isCool('crip'));
+  t.ok(isCool('JavaScript'));
+  t.end();
+});
+
+test('Test whitelist', function testWhitelist(t) {
+  var isCool = createIsCool({
+    customWhitelist: ['gnarly', "bitchin'"]
+  });
+
+  t.ok(!isCool('bitch'));
+  t.ok(isCool("bitchin'"));
+  t.end();
 });
