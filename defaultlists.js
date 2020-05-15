@@ -213,7 +213,9 @@ var lists = {
     'lockdown',
     'aids',
     'hiv',
-    'hiv/aids'
+    'hiv/aids',
+    'niglet',
+    'niglets'
   ],
   tragedyModeBlacklist: [
     'invasion',
